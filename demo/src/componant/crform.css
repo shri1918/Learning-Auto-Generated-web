@@ -1,0 +1,106 @@
+.f {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(175, 222, 240);
+  border-radius: 5px;
+  padding: 10px;
+  color: #333;
+}
+
+.b1 {
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(204, 18, 18);
+  color: white;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.err {
+  text-align: center;
+  color: red;
+}
+
+input {
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  margin-left: 0;
+}
+
+.a1 {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 601px) {
+  .f {
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  input {
+    margin-left: 10px; width: 50%;
+  }
+
+  .l1 {
+    margin-left: 20px;
+  }
+
+  label {
+    margin-left: 0;margin-right: 10%;
+   
+  }
+  .pas{
+    margin-left: 10px;
+  }
+
+  .a1 {
+   float: right;
+   margin-top: -50px;
+  }
+  .p1{
+    width: 50%;
+   
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .f {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 60%;
+  }
+  input {
+    margin-left: 10px; width:50%;
+  }
+  
+  label{
+    margin-left: 50px;
+  }
+  .l1{
+    margin-left: 20px;
+  }
+}
